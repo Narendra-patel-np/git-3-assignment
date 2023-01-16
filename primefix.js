@@ -1,16 +1,12 @@
-let num=50;
-let count=0;
 
-for( let i=2 ; i<num ; i++)
-{
-  if( num%i===0){
+let num=17;
+count=0;
+for(i=0;i<=num;i++){
+if(num%i==0)
 count++;
-   }
 }
-if(count===0)
-{
-console.log("yes");
-}
-else{
-console.log("no");
-}
+if(count==2)
+return true;
+else 
+return false;
+
